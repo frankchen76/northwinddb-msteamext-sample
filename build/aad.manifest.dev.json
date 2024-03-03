@@ -1,0 +1,110 @@
+{
+    "id": "d5fc1842-5c83-4c37-95e3-46915b430d80",
+    "appId": "9c81e48b-ab3b-4111-87d2-4de76cb6e4a1",
+    "name": "tachen-northwinddb-idp-dev",
+    "accessTokenAcceptedVersion": 2,
+    "signInAudience": "AzureADMyOrg",
+    "optionalClaims": {
+        "idToken": [],
+        "accessToken": [
+            {
+                "name": "idtyp",
+                "source": null,
+                "essential": false,
+                "additionalProperties": []
+            }
+        ],
+        "saml2Token": []
+    },
+    "requiredResourceAccess": [
+        {
+            "resourceAppId": "00000003-0000-0000-c000-000000000000",
+            "resourceAccess": [
+                {
+                    "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+                    "type": "Scope"
+                }
+            ]
+        },
+        {
+            "resourceAppId": "ab4e8ed8-c4d7-4de9-a352-d23da8651cf9",
+            "resourceAccess": [
+                {
+                    "id": "85d9fbf4-4be0-4ba1-b600-6666f315870e",
+                    "type": "Scope"
+                }
+            ]
+        }
+    ],
+    "oauth2Permissions": [
+        {
+            "adminConsentDescription": "Allows Teams to call the app's web APIs as the current user.",
+            "adminConsentDisplayName": "Teams can access app's web APIs",
+            "id": "43c409f3-346b-4084-af6a-6ad15284a8f3",
+            "isEnabled": true,
+            "type": "User",
+            "userConsentDescription": "Enable Teams to call this app's web APIs with the same rights that you have",
+            "userConsentDisplayName": "Teams can access app's web APIs and make requests on your behalf",
+            "value": "access_as_user"
+        }
+    ],
+    "preAuthorizedApplications": [
+        {
+            "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+            "permissionIds": [
+                "43c409f3-346b-4084-af6a-6ad15284a8f3"
+            ]
+        },
+        {
+            "appId": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
+            "permissionIds": [
+                "43c409f3-346b-4084-af6a-6ad15284a8f3"
+            ]
+        },
+        {
+            "appId": "d3590ed6-52b3-4102-aeff-aad2292ab01c",
+            "permissionIds": [
+                "43c409f3-346b-4084-af6a-6ad15284a8f3"
+            ]
+        },
+        {
+            "appId": "00000002-0000-0ff1-ce00-000000000000",
+            "permissionIds": [
+                "43c409f3-346b-4084-af6a-6ad15284a8f3"
+            ]
+        },
+        {
+            "appId": "bc59ab01-8403-45c6-8796-ac3ef710b3e3",
+            "permissionIds": [
+                "43c409f3-346b-4084-af6a-6ad15284a8f3"
+            ]
+        },
+        {
+            "appId": "0ec893e0-5785-4de6-99da-4ed124e5296c",
+            "permissionIds": [
+                "43c409f3-346b-4084-af6a-6ad15284a8f3"
+            ]
+        },
+        {
+            "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+            "permissionIds": [
+                "43c409f3-346b-4084-af6a-6ad15284a8f3"
+            ]
+        },
+        {
+            "appId": "4345a7b9-9a63-4910-a426-35363201d503",
+            "permissionIds": [
+                "43c409f3-346b-4084-af6a-6ad15284a8f3"
+            ]
+        }
+    ],
+    "identifierUris": [
+        "api://botid-17a4c95d-2a52-49c4-9448-d6082456a26d"
+    ],
+    "replyUrlsWithType": [
+        {
+            "url": "https://mngenv626552-northwinddb-copilotplugin.azurewebsites.net/auth-end.html",
+            "type": "Web"
+        }
+    ]
+}

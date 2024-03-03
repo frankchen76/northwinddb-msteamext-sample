@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceBaseName": {
+            "value": "${{RESOURCE_SUFFIX}}"
+        },
+        "resourceBaseNameBot": {
+            "value": "${{AZURE_BOT_RESOURCENAME}}"
+        },
+        "botAadAppClientId": {
+            "value": "${{BOT_ID}}"
+        },
+        "botAadAppClientSecret": {
+            "value": "${{SECRET_BOT_PASSWORD}}"
+        },
+        "webAppSKU": {
+            "value": "B1"
+        },
+        "botDisplayName": {
+            "value": "northwinddb-msteamext"
+        },
+        "m365ClientId": {
+            "value": "${{AAD_APP_CLIENT_ID}}"
+        },
+        "m365ClientSecret": {
+            "value": "${{SECRET_AAD_APP_CLIENT_SECRET}}"
+        },
+        "m365TenantId": {
+            "value": "${{AAD_APP_TENANT_ID}}"
+        },
+        "m365OauthAuthorityHost": {
+            "value": "${{AAD_APP_OAUTH_AUTHORITY_HOST}}"
+        },
+        "northwindDbApi": {
+            "value": "${{NORTHWINDDBAPI_ENDPOINT}}"
+        },
+        "debugValue": {
+            "value": "${{DEBUG}}"
+        }
+    }
+}

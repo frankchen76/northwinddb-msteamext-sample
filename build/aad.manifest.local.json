@@ -1,0 +1,110 @@
+{
+    "id": "404f7607-7b19-4332-b4c6-52859791a9a3",
+    "appId": "89752bf4-5f18-4318-bb54-c6bf9801c7c8",
+    "name": "tachen-northwinddb-idp-local",
+    "accessTokenAcceptedVersion": 2,
+    "signInAudience": "AzureADMyOrg",
+    "optionalClaims": {
+        "idToken": [],
+        "accessToken": [
+            {
+                "name": "idtyp",
+                "source": null,
+                "essential": false,
+                "additionalProperties": []
+            }
+        ],
+        "saml2Token": []
+    },
+    "requiredResourceAccess": [
+        {
+            "resourceAppId": "00000003-0000-0000-c000-000000000000",
+            "resourceAccess": [
+                {
+                    "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+                    "type": "Scope"
+                }
+            ]
+        },
+        {
+            "resourceAppId": "ab4e8ed8-c4d7-4de9-a352-d23da8651cf9",
+            "resourceAccess": [
+                {
+                    "id": "85d9fbf4-4be0-4ba1-b600-6666f315870e",
+                    "type": "Scope"
+                }
+            ]
+        }
+    ],
+    "oauth2Permissions": [
+        {
+            "adminConsentDescription": "Allows Teams to call the app's web APIs as the current user.",
+            "adminConsentDisplayName": "Teams can access app's web APIs",
+            "id": "91ce59db-290d-436e-87ea-396c52d8161d",
+            "isEnabled": true,
+            "type": "User",
+            "userConsentDescription": "Enable Teams to call this app's web APIs with the same rights that you have",
+            "userConsentDisplayName": "Teams can access app's web APIs and make requests on your behalf",
+            "value": "access_as_user"
+        }
+    ],
+    "preAuthorizedApplications": [
+        {
+            "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+            "permissionIds": [
+                "91ce59db-290d-436e-87ea-396c52d8161d"
+            ]
+        },
+        {
+            "appId": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
+            "permissionIds": [
+                "91ce59db-290d-436e-87ea-396c52d8161d"
+            ]
+        },
+        {
+            "appId": "d3590ed6-52b3-4102-aeff-aad2292ab01c",
+            "permissionIds": [
+                "91ce59db-290d-436e-87ea-396c52d8161d"
+            ]
+        },
+        {
+            "appId": "00000002-0000-0ff1-ce00-000000000000",
+            "permissionIds": [
+                "91ce59db-290d-436e-87ea-396c52d8161d"
+            ]
+        },
+        {
+            "appId": "bc59ab01-8403-45c6-8796-ac3ef710b3e3",
+            "permissionIds": [
+                "91ce59db-290d-436e-87ea-396c52d8161d"
+            ]
+        },
+        {
+            "appId": "0ec893e0-5785-4de6-99da-4ed124e5296c",
+            "permissionIds": [
+                "91ce59db-290d-436e-87ea-396c52d8161d"
+            ]
+        },
+        {
+            "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+            "permissionIds": [
+                "91ce59db-290d-436e-87ea-396c52d8161d"
+            ]
+        },
+        {
+            "appId": "4345a7b9-9a63-4910-a426-35363201d503",
+            "permissionIds": [
+                "91ce59db-290d-436e-87ea-396c52d8161d"
+            ]
+        }
+    ],
+    "identifierUris": [
+        "api://botid-4685573b-5b09-4c27-be46-73596c1c3b34"
+    ],
+    "replyUrlsWithType": [
+        {
+            "url": "https://ezcode.ngrok.io/auth-end.html",
+            "type": "Web"
+        }
+    ]
+}
